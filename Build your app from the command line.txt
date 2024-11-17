@@ -1,0 +1,18 @@
+You can execute all the build tasks available to your Android project using the Gradle wrapper command line tool. It's available as a batch file for Windows (gradlew.bat) and a shell script for Linux and Mac (gradlew.sh), and it's accessible from the root of each project you create with Android Studio.
+
+To run a task with the wrapper, use one of the following commands from a Terminal window (from Android Studio, select View > Tool Windows > Terminal):
+
+
+On Windows: 
+
+gradlew task-name
+
+
+On Mac or Linux: 
+
+./gradlew task-name
+
+
+To see a list of all available build tasks for your project, execute tasks:
+
+gradlew tasks
